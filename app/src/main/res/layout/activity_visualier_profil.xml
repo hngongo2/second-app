@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Visualier_profil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/background_activity"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp">
+
+
+        <ImageView
+            android:id="@+id/img_profil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_picture"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:paddingTop="10dp"
+            android:text="heiro@gmail.com" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="heiro ston harley" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32dp"
+            android:text="DESCRIPTION"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+
+            android:text="Numero PL/PC"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="COMMUNE"/>
+
+    </LinearLayout>
+
+    <MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
